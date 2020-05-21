@@ -1,0 +1,16 @@
+{
+  "name": "node-seed",
+  "version": "1.0.0",
+  "description": "Node + Express base project",
+  "main": "index.js",
+  "repository": "git@github.com:andre682/node-seed.git",
+  "author": "Andre Torbitoni <andre.torbitoni@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.5"
+  }
+}
