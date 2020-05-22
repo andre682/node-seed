@@ -1,12 +1,13 @@
 import config from './config'
 import express from 'express'
 import Logger from './loaders/logger'
+import loaders from './loaders'
 
 async function startServer() {
   const app = express()
-
-
-  app.listen(config.port, err => {
+  await loaders({ expressApp: app })
+  
+  app.listen(config.port, (err) => {
     if (err) {
       Logger.error(err)
       process.exit(1)

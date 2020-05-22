@@ -11,13 +11,14 @@
     "SharedArrayBuffer": "readonly"
   },
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2019,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "experimentalDecorators": true
     }
   },
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "@typescript-eslint/ban-ts-ignore": "off"
   }
 }
